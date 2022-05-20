@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-box{
+  padding: 10px;
+}
+.cuisinInput,.submit, .textIn{
+  width: 100px;
+  padding: 10px 5px;
+  margin: 20px 5px;
+  border-radius: 5px;
+
+}
+
+.ingredientPara{
+  text-align: justify;
+  padding: 10px 5px 10px 5px;
+}
+
+.label{
+  padding: 5px;
+}
+
+.cuisinInput:hover, .textIn:hover, .submit:hover{
+  color: white;
+  background-color:#002ead;
+  transition: 0.7s; 
+}
+
+
+
+
