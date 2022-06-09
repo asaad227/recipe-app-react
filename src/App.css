@@ -1,9 +1,8 @@
-.App {
-  text-align: center;
-}
 .flex-container{
   display: flex;
+  text-align: center;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .flex-box{
@@ -19,7 +18,8 @@
 
 .ingredientPara{
   text-align: justify;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 0px;
+  margin: 0px 150px;
 }
 
 .label{
@@ -32,6 +32,17 @@
   transition: 0.7s; 
 }
 
+.wall{
+  width: 400px;
+}
 
+@media  screen and (max-width: 700px) {
+  .wall{
+    width: 300px;
+  }
+  .ingredientPara{
+    margin:0;
+  }
+}
 
 
